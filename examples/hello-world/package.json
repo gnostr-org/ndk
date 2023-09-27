@@ -13,6 +13,7 @@
         "bitcoin"
     ],
     "devDependencies": {
+        "@daisy/ace": "1.3.2",
         "@types/jest": "~29.5.3",
         "@types/node": "~20.5.1",
         "@types/ws": "^8.5.5",
@@ -43,8 +44,11 @@
     "author": "pablof7z",
     "license": "MIT",
     "dependencies": {
+        "@adonisjs/core": "5.9.0",
         "@nostr-dev-kit/ndk": "workspace:*",
         "@types/debug": "^4.1.8",
+        "reflect-metadata": "0.1.13",
+        "source-map-support": "0.5.21",
         "websocket-polyfill": "^0.0.3"
     }
 }
