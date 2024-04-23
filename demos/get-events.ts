@@ -40,6 +40,7 @@ async function fetchAndVerifyEvents(label: string, skipVerification: boolean) {
 
     time(info("verifySignature"));
     for (const event of eventObjects) {
+        log(event);
         verifySignature(event as any);
     }
     timeEnd(info("verifySignature"));
